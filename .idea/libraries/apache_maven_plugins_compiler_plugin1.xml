@@ -1,0 +1,54 @@
+<component name="libraryTable">
+  <library name="apache.maven.plugins.compiler.plugin1" type="repository">
+    <properties maven-id="org.apache.maven.plugins:maven-compiler-plugin:3.12.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/maven-compiler-plugin-3.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-shared-utils-3.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.36.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-shared-incremental-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-component-annotations-1.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-java-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-9.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/qdox-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-compiler-api-2.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-compiler-manager-2.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-xml-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-xml-impl-4.0.0-alpha-5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-api-xml-4.0.0-alpha-5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-api-meta-4.0.0-alpha-5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.sisu.plexus-0.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.sisu.inject-0.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-classworlds-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-compiler-javac-2.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-utils-4.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/maven-compiler-plugin-3.12.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-shared-utils-3.4.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.36-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.11.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-shared-incremental-1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-component-annotations-1.5.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-java-1.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-9.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/qdox-2.0.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-compiler-api-2.14.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-compiler-manager-2.14.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.inject-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-xml-4.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-xml-impl-4.0.0-alpha-5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-api-xml-4.0.0-alpha-5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-api-meta-4.0.0-alpha-5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.sisu.plexus-0.3.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation-api-1.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.sisu.inject-0.3.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-classworlds-2.5.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-compiler-javac-2.14.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-utils-4.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
