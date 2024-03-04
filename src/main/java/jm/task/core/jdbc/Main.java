@@ -16,10 +16,10 @@ public class Main {
         UserDaoHibernateImpl zhib = new UserDaoHibernateImpl();
         //zhib.dropUsersTable();
         zhib.createUsersTable();
-        zhib.saveUser("Ilysdfsda","Srokov",(byte)43);
+        //zhib.saveUser("Ivan1","Ivanov",(byte)43);
         //zhib.cleanUsersTable();
-       // System.out.println(zhib.getAllUsers());
-        //zhib.removeUserById(2);
+        System.out.println(zhib.getAllUsers());
+        //zhib.removeUserById(6);
 
 
 

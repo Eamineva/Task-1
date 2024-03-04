@@ -1,53 +1,18 @@
 package jm.task.core.jdbc.util;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
+
 
 public class Util {
     // реализуйте настройку соеденения с БД
-    /*private static final Properties properties = new Properties();
 
-    static {
-        try (InputStream input = Util.class.getClassLoader().getResourceAsStream("/db.properties")) {
-            if (input == null) {
-                System.out.println("Sorry, unable to find db.properties");
-                System.exit(1);
-            }
-
-            // Load the properties file
-            properties.load(input);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static String getDbUrl() {
-
-        return properties.getProperty("db.url");
-    }
-
-    public static String getDbUsername() {
-        return properties.getProperty("db.username");
-    }
-
-    public static String getDbPassword() {
-        return properties.getProperty("db.password");
-    }*/
 
     public static Connection connect() throws SQLException {
 
         try {
-            // Get database credentials from DatabaseConfig class
-//            db.url=jdbc:postgresql://localhost:5432/postgres
-//            db.username=admuser
-//            db.password=Test2024_
-//            var jdbcUrl = Util.getDbUrl();
-//            var user = Util.getDbUsername();
-//            var password = Util.getDbPassword();
             String jdbcUrl = "jdbc:postgresql://localhost:5432/postgres";
             String user = "admuser";
             String password = "Test2024_";
@@ -56,10 +21,21 @@ public class Util {
             return DriverManager.getConnection(jdbcUrl, user, password);
 
         } catch (SQLException  e) {
-            //System.out.println(("create conn"));
             System.err.println(e.getMessage());
             return null;
         }
+    }
+
+    public static Properties h_connect(){
+        Properties prop= new Properties();
+        prop.setProperty("hibernate.connection.url", "jdbc:postgresql://localhost:5432/postgres");
+        prop.setProperty("dialect", "org.hibernate.dialect.PostgreSQL82Dialect");
+        prop.setProperty("hibernate.connection.username", "admuser");
+        prop.setProperty("hibernate.connection.password", "Test2024_");
+        prop.setProperty("hibernate.connection.driver_class", "org.postgresql.Driver");
+        prop.setProperty("hibernate.current_session_context_class", "thread");
+        prop.setProperty("show_sql", "true");
+        return prop;
     }
 
 }
